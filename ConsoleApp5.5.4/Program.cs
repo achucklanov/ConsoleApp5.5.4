@@ -24,7 +24,7 @@
                 modif = modif.Remove(0, 1); //на платформе использ. Remove(0, 2)
             }
 
-            Console.BackgroundColor = (ConsoleColor)deep;
+            Console.BackgroundColor = (ConsoleColor)deep;  // системное перечисление
             Console.WriteLine("...." + modif);
 
             if (deep > 1)
